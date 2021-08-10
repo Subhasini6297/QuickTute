@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: white;
+}
+
+.nav-list{
+    width: 60%;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 30%;
+    border: 3px;
+    border-color: black;
+    border-radius: 50px;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+}
+
+.nav-list li a{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.rightnav{
+    width: 40%;
+    text-align: right;
+    padding-right: 4px;
+}
+
+#search{
+    padding: 8px 20px;
+    font-size: 14px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: none;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input[type="checkbox"]
+{
+    z-index: 1;
+    cursor: pointer;   
+}
+input[type="checkbox"]:checked ~ *
+{
+    filter: invert(1);
+}
+
+.box-main{
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firsthalf{
+    padding: 10%;
+    width: 50%;
+    
+}
+
+.text-bg{
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text-sm{
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.firsthalf button{
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    
+}
+
+.secondhalf{
+    width: 30%;
+}
+
+
+.secondhalf img{
+    width: 50%;
+}
+
+.box1{
+    background-color:cornflowerblue;
+}
+
+.box2{
+    background-color:cadetblue;
+}
+
+
+
+
+.footbar{
+    padding: 4px;
+    background-color: darkgray;
+}
+
+.footer-list{
+    display: flex;
+    align-items: center;
+}
+
+.footer-list li{
+    list-style: none;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-list li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
